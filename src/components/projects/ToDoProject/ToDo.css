@@ -1,0 +1,19 @@
+.link{
+    text-decoration: none;
+}
+.taskbutton{
+    width:100%;
+    margin-bottom: 10px;
+}
+.deleteicon{
+    position: absolute;
+    right:10px;
+    
+}
+.taskbutton:hover{
+    color:black;
+}
+.clearAllButton:hover{
+    color:yellow;
+    font-weight: 700;
+}

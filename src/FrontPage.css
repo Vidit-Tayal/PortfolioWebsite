@@ -1,0 +1,7 @@
+.avatar:hover{
+    cursor: pointer;
+    scale:1.01;
+}
+.NavLinkClass{
+    text-decoration: none;
+}
