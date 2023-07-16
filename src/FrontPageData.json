@@ -64,7 +64,7 @@
         {
             "name": "Projects",
             "desc": "A showcase of my portfolio featuring a range of technical projects.",
-            "url": "/projects-todo",
+            "url": "/projects",
             "imgsrc": [
                 "https://www.educative.io/v2api/editorpage/5393602882568192/image/6038586442907648",
                 "https://i0.wp.com/wordpress.org/news/files/2021/04/image8.png?resize=678%2C318&ssl=1",
