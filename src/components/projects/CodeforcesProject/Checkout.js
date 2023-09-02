@@ -47,14 +47,37 @@ export default function Checkout() {
       }
 
       const data = await response.json();
-      const filteredData = data.result.filter((item) => item.verdict !== "OK");
+      const solvedProblems = new Set(); // Set to store problems you've solved
+
+      // Filter the data to include only unsolved problems
+      const filteredData2 = data.result.filter((item) => {
+        const problemKey = item.problem.name;
+
+        if (item.verdict === "OK") {
+          // If this submission is accepted, add the problem to the set of solved problems
+          solvedProblems.add(problemKey);
+        }
+
+        // Return true if the problem hasn't been solved yet (not in the set of solved problems)
+        return !solvedProblems.has(problemKey);
+      });
+      const filteredData = filteredData2.filter((item) => {
+        const problemKey = item.problem.name;
+
+        if (item.verdict === "OK") {
+          solvedProblems.add(problemKey);
+        }
+
+        return !solvedProblems.has(problemKey);
+      });
+
       setApiResponse(filteredData);
     } catch (error) {
       setIsSubmitted(false);
       setIsLoading(false);
       if (error.toString().trim() === "") alert(cfHandle + " does not exist");
       else alert(error);
-      setApiResponse(null); 
+      setApiResponse(null);
     } finally {
       setIsLoading(false);
     }
@@ -105,6 +128,11 @@ export default function Checkout() {
             variant="standard"
             value={cfHandle}
             onChange={handleChange}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                makeSubmit();
+              }
+            }}
           ></TextField>
 
           <FormGroup>
