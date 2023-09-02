@@ -7,6 +7,7 @@ import { Dashboard, Title } from "@mui/icons-material";
 import CustomizedSteppers from "./components/CustomizedSteppers";
 import TicTacToe from "./components/projects/TicTacToeProject/TicTacToe";
 import ProjectsPage from "./components/projects/ProjectsPage";
+import CodeforcesUnsolved from "./components/projects/CodeforcesProject/CodeforcesUnsolved";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/projects" Component={ProjectsPage}></Route>
         <Route exact path="/projects-todo" Component={ToDo}></Route>
         <Route exact path="/projects-tictactoe" Component={TicTacToe}></Route>
+        <Route exact path="/projects-codeforces" Component={CodeforcesUnsolved}></Route>
         <Route path  = "*" Component={PageNotFound}></Route>
       </Routes>
     </div>

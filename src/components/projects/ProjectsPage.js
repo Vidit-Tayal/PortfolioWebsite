@@ -16,6 +16,12 @@ const ProjectsPage = () => {
           TicTacToe
         </Link>
       </NavLink>
+      <br></br>
+      <NavLink className="NavLinkClass" to="/projects-codeforces">
+        <Link  className="link" underline="none">
+          Codeforces Unsolved Problems
+        </Link>
+      </NavLink>
     </div>
   );
 };
