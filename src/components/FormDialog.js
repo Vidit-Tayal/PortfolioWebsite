@@ -120,7 +120,7 @@ export default function FormDialog() {
             required
             margin="dense"
             id="improvements"
-            label="Areas for Improvement"
+            label="Areas of Improvement"
             type="text"
             fullWidth
             variant="standard"

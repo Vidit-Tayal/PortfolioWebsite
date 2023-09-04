@@ -1,27 +1,12 @@
 import { Link } from "@mui/material";
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Pricing from "./Pricing.js";
 
 const ProjectsPage = () => {
   return (
     <div>
-      <NavLink className="NavLinkClass" to="/projects-todo">
-        <Link  className="link" underline="none">
-          ToDo
-        </Link>
-      </NavLink>
-      <br></br>
-      <NavLink className="NavLinkClass" to="/projects-tictactoe">
-        <Link  className="link" underline="none">
-          TicTacToe
-        </Link>
-      </NavLink>
-      <br></br>
-      <NavLink className="NavLinkClass" to="/projects-codeforces">
-        <Link  className="link" underline="none">
-          Codeforces Unsolved Problems
-        </Link>
-      </NavLink>
+      <Pricing></Pricing>
     </div>
   );
 };

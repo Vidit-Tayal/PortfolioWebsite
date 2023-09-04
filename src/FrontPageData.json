@@ -1,5 +1,5 @@
 {
-    "intro": "I am a 19 year old enthusiast based in Delhi, passionate about coding, competitive programming, and video editing.",
+    "intro": "I am a 19 year old enthusiast based in Delhi, passionate about development, competitive programming, and video editing.",
     "footer_avatars": [
         {
             "src": "https://www.vhv.rs/dpng/d/9-99265_linkedin-icon-png-transparent-png.png",
@@ -74,19 +74,19 @@
         },
         {
             "name": "Achievements",
-            "desc": "Highlighting my notable accomplishments and recognition across various domains.",
+            "desc": "My notable accomplishments across various domains.",
             "url": "/achievements",
             "imgsrc": [
                 "https://technofall.com/wp-content/uploads/2016/07/CodeChef-logo.jpeg",
                 "https://res.cloudinary.com/practicaldev/image/fetch/s--mzwvoucO--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cer3l19eex0wy900b101.jpg",
                 "https://leetcode.com/static/images/LeetCode_Sharing.png",
                 "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210406180435/What-is-GirlScript-Summer-of-Code-and-How-to-Participate.png",
-                "https://coachify.co.in/wp-content/uploads/2020/07/ntse-admit-card-2019-released.jpg"
+                "https://static.toiimg.com/thumb/msid-95655551,width-1280,height-720,resizemode-4/.jpg"
             ]
         },
         {
             "name": "Technical Skills",
-            "desc": "See the programming languages, frameworks, and tools I specialize in.",
+            "desc": "The frameworks, programming languages, and tools I specialize in.",
             "url": "/skills",
             "imgsrc": [
                 "https://blog.eduonix.com/wp-content/uploads/2018/09/Git-Github-Essentials-696x500.jpg",
@@ -97,7 +97,7 @@
         },
         {
             "name": "My Blog",
-            "desc": "Explore a collection of articles that reflect my interests and perspectives.",
+            "desc": "A collection of articles that reflect my interests and perspectives.",
             "url": "/blog",
             "imgsrc": [
                 "https://images.yourstory.com/cs/wordpress/2017/02/52-Blog.jpg?w=1152&fm=auto&ar=2:1&mode=crop&crop=faces",
