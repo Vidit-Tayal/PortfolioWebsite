@@ -9,6 +9,7 @@ import ProjectsPage from "./components/projects/ProjectsPage";
 import CodeforcesUnsolved from "./components/projects/CodeforcesProject/CodeforcesUnsolved";
 import Skills from "./components/technical skills/Skills";
 import Education from "./components/education/Education";
+import Experience from "./components/experience/Experience";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/projects" Component={ProjectsPage}></Route>
         <Route exact path="/skills" Component={Skills}></Route>
         <Route exact path="/education" Component={Education}></Route>
+        <Route exact path="/experience" Component={Experience}></Route>
         <Route exact path="/projects-todo" Component={ToDo}></Route>
         <Route exact path="/projects-tictactoe" Component={TicTacToe}></Route>
         <Route exact path="/projects-codeforces" Component={CodeforcesUnsolved}></Route>

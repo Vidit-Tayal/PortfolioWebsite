@@ -6,13 +6,13 @@ import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardContent from "@mui/material/CardContent";
 import StarIcon from "@mui/icons-material/StarBorder";
-import edu_tiers from "./EduTiers";
+import exp_tiers from "./exp_tiers";
 
-const AllEducation = () => {
+const AllExperience = () => {
   return (
     <Container maxWidth="md" component="main">
       <Grid container spacing={5} alignItems="flex-end">
-        {edu_tiers.map((tier) => (
+        {exp_tiers.map((tier) => (
           <Grid item key={tier.title} xs={12} sm={6} md={4}>
             <Card>
               <CardHeader
@@ -52,4 +52,4 @@ const AllEducation = () => {
   );
 };
 
-export default AllEducation;
+export default AllExperience;
