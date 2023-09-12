@@ -6,6 +6,7 @@ import ProjectFooter from "../projects/ProjectFooter";
 import OldMemories from "../education/OldMemories";
 import aana from "./AanaProduct";
 import { Button } from "@mui/material";
+import lgPics from "./LgPics";
 
 const Experience = () => {
   const heading = "Experience";
@@ -19,7 +20,7 @@ const Experience = () => {
       <HeroUnit heading={heading} desc={desc}></HeroUnit>
       <AllExperience></AllExperience>
       <OldMemories heading="" desc='"Chat With Aana"' data={data}></OldMemories>
-      <HeroUnit heading="" desc="Website Redevelopment"></HeroUnit>
+      <OldMemories heading="" desc="Website Redevelopment" data={lgPics} groups={2}></OldMemories>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <Button
           variant="outlined"
@@ -32,7 +33,6 @@ const Experience = () => {
           New Website
         </Button>
       </div>
-
       <ProjectFooter></ProjectFooter>
     </div>
   );

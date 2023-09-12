@@ -6,9 +6,11 @@ import Tooltip from '@mui/material/Tooltip';
 
 const MasonryImageList = (props) => {
   const data = props.data;
+  const groups = props.groups==null ? 3 : props.groups;
   return (
-    <Box sx={{ width: "90%" }}>
-      <ImageList variant="masonry" cols={3}>
+    <div style={{ width: "90%" }}>
+    <Box>
+      <ImageList variant="masonry" cols={groups}>
         {data.map((item) => (
           <Tooltip title={<span dangerouslySetInnerHTML={{ __html: item.desc }} />} key={item.img}>
             <ImageListItem>
@@ -23,6 +25,7 @@ const MasonryImageList = (props) => {
         ))}
       </ImageList>
     </Box>
+     </div>
   );
 }
 
