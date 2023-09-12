@@ -14,14 +14,15 @@ const tiers = [
     },
     {
       title: "Keep Applying!",
-      url: "#",
+      url: "https://www.youtube.com/watch?v=fZ9KRHFrgl4&ab_channel=Let%27sCode-ViditTayal",
       description: [
         "Browser Extension",
         "Job Applications",
         "Apply Easily",
         "No Data Loss",
       ],
-      buttonText: "CHROME WEB STORE",
+      // buttonText: "CHROME WEB STORE", in future🔥
+      buttonText: "VIDEO",
       buttonVariant: "outlined",
     },
     {
