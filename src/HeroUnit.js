@@ -55,7 +55,10 @@ const HeroUnit = () => {
         >
           <Button variant="contained" onClick={handleScrollToBottom}>profile links</Button>
           {/* <Button variant="outlined">feedback</Button> */}
-          <FormDialog></FormDialog>
+          <FormDialog content="Thank you for visiting my website!! 😊 I genuinely
+            appreciate your time and would love to hear your feedback. Please
+            take a moment to share your thoughts, suggestions, or any issues you
+            encountered while browsing the website. 📝"></FormDialog>
         </Stack>
       </Container>
     </Box>

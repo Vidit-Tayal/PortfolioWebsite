@@ -10,6 +10,8 @@ import CodeforcesUnsolved from "./components/projects/CodeforcesProject/Codeforc
 import Skills from "./components/technical skills/Skills";
 import Education from "./components/education/Education";
 import Experience from "./components/experience/Experience";
+import Blog from "./components/projects/BlogProject/Blog";
+import SingleBlogPost from "./components/projects/BlogProject/SingleBlogPost/SingleBlogPost";
 
 function App() {
   return (
@@ -23,6 +25,8 @@ function App() {
         <Route exact path="/projects-todo" Component={ToDo}></Route>
         <Route exact path="/projects-tictactoe" Component={TicTacToe}></Route>
         <Route exact path="/projects-codeforces" Component={CodeforcesUnsolved}></Route>
+        <Route exact path="/blog" Component={Blog}></Route>
+        <Route path="/blog/:blognum" Component={SingleBlogPost} />
         <Route path  = "*" Component={PageNotFound}></Route>
       </Routes>
     </div>

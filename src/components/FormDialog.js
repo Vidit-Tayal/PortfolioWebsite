@@ -10,7 +10,7 @@ import Snackbar from "@mui/material/Snackbar";
 import sendEmail from "./EmailSender";
 import { useState } from "react";
 
-export default function FormDialog() {
+export default function FormDialog(props) {
   const [feedbackDetails, setFeedbackDetails] = useState({
     name: "",
     highlights: "",
@@ -86,10 +86,8 @@ export default function FormDialog() {
         <DialogTitle>Feedback</DialogTitle>
         <DialogContent>
           <DialogContentText>
-            Thank you for visiting my website!! 😊 <br></br>I genuinely
-            appreciate your time and would love to hear your feedback. Please
-            take a moment to share your thoughts, suggestions, or any issues you
-            encountered while browsing the website. 📝
+            {props.content}
+            
             <br></br>
             <br></br>
           </DialogContentText>
