@@ -29,7 +29,7 @@ export default function Blog() {
       const fetchedPosts = await Promise.all(
         blogPostFiles.map(async (fileName) => {
           try {
-            const response = await axios.get(`./BlogContent/${fileName}`);
+            const response = await axios.get(`./raw_data/Projects/blog project/BlogContent/${fileName}`);
             return [textReducer( response.data,500),fileName];
           } catch (error) {
             console.error(`Error fetching MD file ${fileName}:`, error);

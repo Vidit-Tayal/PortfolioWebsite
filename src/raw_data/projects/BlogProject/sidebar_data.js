@@ -12,7 +12,9 @@ const sidebar = {
     { title: "Design Changes On WhatsApp", blognum: "1" },
   ],
   about_me:[
-    { title: "How I am the most eligible bachelor in the universe", blognum: "#" }
+    { title: "My first internship experience", blognum: "4" },
+    {title: "My Undergrad Software Engineering Curriculum", blognum:"3"},
+    {title:"My Four-Month Placement Preparation Plan", blognum:"5"},
   ],
   social: [
     { name: "LinkedIn", icon: LinkedInIcon, url: "https://www.linkedin.com/in/vidit-tayal/" },
@@ -20,6 +22,7 @@ const sidebar = {
     { name: "Codeforces", icon: CodeIcon, url: "https://codeforces.com/profile/vidittayal" },
     { name: "GitHub", icon: GitHubIcon, url: "https://github.com/Vidit-Tayal" },
   ],
+  charLimit:45
 };
 
 export default sidebar;

@@ -8,6 +8,7 @@ import Link from "@mui/material/Link";
 import { useNavigate } from 'react-router-dom';
 import textReducer from "../../text_reducer";
 import capitalizeWords from "../../text_capitalizer";
+import sidebar from "../../../raw_data/projects/BlogProject/sidebar_data";
 
 function Sidebar(props) {
   const { archives, description, social, title , about_me} = props;
@@ -40,7 +41,7 @@ function Sidebar(props) {
               onClick={() => handleClick(archive.blognum)}
               key={archive.title}
             >
-              {textReducer(archive.title) }
+              {capitalizeWords(textReducer(archive.title,sidebar.charLimit)) }
             </Link>
           ))}
         </div>
@@ -59,7 +60,7 @@ function Sidebar(props) {
               onClick={() => handleClick(me.blognum)}
               key={me.title}
             >
-              {capitalizeWords( textReducer(me.title) )}
+              {capitalizeWords( textReducer(me.title,sidebar.charLimit) )}
             </Link>
           ))}
         </div>

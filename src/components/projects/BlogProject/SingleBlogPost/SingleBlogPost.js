@@ -25,7 +25,7 @@ const SingleBlogPost = (props) => {
       const fetchedPosts = await Promise.all(
         blogPostFiles.map(async (fileName) => {
           try {
-            const response = await axios.get(`../../BlogContent/${fileName}`);
+            const response = await axios.get(`../../raw_data/Projects/blog project/BlogContent/${fileName}`);
             return [response.data,fileName];
           } catch (error) {
             console.error(`Error fetching MD file ${fileName}:`, error);
