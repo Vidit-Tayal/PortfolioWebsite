@@ -5,9 +5,15 @@ import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
 import Link from "@mui/material/Link";
 import Box from "@mui/material/Box";
+import { useNavigate } from 'react-router-dom';
 
 function MainFeaturedPost(props) {
   const { post } = props;
+
+  const navigate = useNavigate();
+  const handleClick = (num) => {
+    navigate('/blog/'+num);
+  };
 
   return (
     <Paper
@@ -67,7 +73,7 @@ function MainFeaturedPost(props) {
             )}
 
             {post.linkText && (
-              <Link variant="subtitle1" href="#">
+              <Link variant="subtitle1" href="" onClick={() => handleClick(post.blognum)}>
                 {post.linkText}
               </Link>
             )}

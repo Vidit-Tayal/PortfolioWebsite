@@ -4,16 +4,66 @@ _Jan 17, 2024_
 
 ![cute image DP :)](https://i.ytimg.com/vi/aPQY__2H3tE/maxresdefault.jpg)
 
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
+Dynamic Programming (DP) can be confusing for many programmers. The dilemma of choosing between easy-to-write recursive code or faster-executing iterative code often leaves students scratching their heads. Will recursive code always work, or might it lead to TLE/MLE errors? Can every DP problem be cracked using recursion?
 
-Curabitur blandit tempus porttitor. **Nullam quis risus eget urna mollis** ornare vel eu leo.
-Nullam id dolor id nibh ultricies vehicula ut id elit.
 
-Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
-Aenean lacinia bibendum nulla sed consectetur.
+## The Challenge:
+The real challenge lies in the variety of methods to solve a single DP problem. Some opt for recursive code, others for iteration. Recursion styles vary—some involve helper functions, while others find them confusing. Online educators have their own preferences, adding to the complexity. This lack of a universal method contributes to the confusion.  
 
-Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+In this post, I'll share a simple set of steps that can guide you in solving any DP problem. The key is to focus on the idea behind the solution, not the specific approach (recursion/iteration).
+
+
+## The Method:
+Our goal is to develop an intuition for solving any DP problem. To achieve this, let's understand the four key terms:
+
+- State: Identifying the subproblem.
+- Transition: Defining how to solve the subproblem.
+- Answer: Determining the final solution.
+- Base case: Identifying the smallest subproblem.
+
+## State:
+
+
+## Transition:
+
+
+## Answer:
+
+
+## Base Case:
+
+
+## Applying the Method - Examples:
+
+**[509. Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)**  
+_The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1._  
+_That is,_
+_F(0) = 0, F(1) = 1_  
+_F(n) = F(n - 1) + F(n - 2), for n > 1._  
+_Given n, calculate F(n)._  
+
+This is a classic DP problem. Lets solve this using our method:
+- state: dp[i] = F(i);
+- transition: dp[i] = dp[i-1] + dp[i-2];
+- answer: dp[n];
+- base case: dp[0] = 0, dp[1] = 1;
+
+Now code the solution with the help of these four terms.  
+![dksn](/raw_data/Projects/blog%20project/BlogContent/images/blog-post2.jpg)  
+
+
+**Ex2: Coin Change2**  
+_Description_  
+Solutions
+
+
+
+## Resources For Mastery:
+To gain a more detailed understanding and effectively solve problems, explore the following resources to achieve mastery in this topic:
+- **[Priyansh Aggarwal DP Bootcamp At IITGN](https://www.youtube.com/playlist?list=PLAj_13N2fk-RA6wvOUmWOyUeL9zmWFJoI):**  Gain clarity on what 'state,' 'transition,' 'answer,' and 'base case' mean.
+
+- **[Dynamic Programming Series](https://www.youtube.com/playlist?list=PLcXpkI9A-RZI-xF76L0sZq_u-k_yHz8pd):** Follow this playlist seriously to master DP. Solve every problem and note down (state, transition, answer, base case) for each.
+
+- **[Further Practice](https://www.youtube.com/playlist?list=PLgUwDviBIf0qUlt5H_kiKYaNSqJ81PMMY):** Once you finish the above playlists, explore other good DP playlists (like Striver) for some problem practice. Ensure you apply the new method you've learned.
+
+Thank you for taking the time to read my blog. I am passionate about software engineering and eagerly look forward to embracing new challenges. I appreciate any feedback you may have for this post.
