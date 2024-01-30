@@ -42,19 +42,28 @@ _F(0) = 0, F(1) = 1_
 _F(n) = F(n - 1) + F(n - 2), for n > 1._  
 _Given n, calculate F(n)._  
 
-This is a classic DP problem. Lets solve this using our method:
-- state: dp[i] = F(i);
-- transition: dp[i] = dp[i-1] + dp[i-2];
-- answer: dp[n];
-- base case: dp[0] = 0, dp[1] = 1;
+This is a classic DP problem. Let's solve it using our method.  
+**state:** dp[i] = F(i);  
+**transition:** dp[i] = dp[i-1] + dp[i-2];  
+**answer:** dp[n];  
+**base case:** dp[0] = 0, dp[1] = 1;  
 
-Now code the solution with the help of these four terms.  
-![dksn](/raw_data/Projects/blog%20project/BlogContent/images/blog-post2.jpg)  
+Let's now implement the solution using the calculated terms above:
+![dksn](/raw_data/Projects/blog%20project/BlogContent/images/blog-post2-fibo.jpg)  
 
 
-**Ex2: Coin Change2**  
-_Description_  
-Solutions
+**[70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)**  
+*You are climbing a staircase. It takes n steps to reach the top.*
+*Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?*   
+
+![dksn](/raw_data/Projects/blog%20project/BlogContent/images/blog-post2-stairs.jpg)
+
+
+**[300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)**  
+*Given an integer array nums, return the length of the longest strictly increasing subsequence.*  
+
+![dksn](/raw_data/Projects/blog%20project/BlogContent/images/blog-post2-lis.jpg)
+
 
 
 
