@@ -1,5 +1,5 @@
 {
-    "intro": "I am a 19 year old enthusiast based in Delhi, passionate about web development and competitive programming.",
+    "intro": "I am a 19 year old enthusiast based in Delhi, passionate about competitive programming and web development.",
     "footer_avatars": [
         {
             "src": "https://www.vhv.rs/dpng/d/9-99265_linkedin-icon-png-transparent-png.png",
@@ -8,10 +8,6 @@
         {
             "src": "https://cdn-icons-png.flaticon.com/512/2111/2111432.png",
             "alt": "https://github.com/Vidit-Tayal"
-        },
-        {
-            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/1200px-Adobe_Premiere_Pro_CC_icon.svg.png",
-            "alt": "https://sites.google.com/view/vidittayal"
         },
         {
             "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/YouTube_social_red_circle_%282017%29.svg/800px-YouTube_social_red_circle_%282017%29.svg.png",
@@ -42,11 +38,10 @@
             "desc": "The academic institutions that fostered my growth and development.",
             "url": "/education",
             "imgsrc": [
-                "https://school.edufever.com/wp-content/uploads/2020/05/Delhi-Public-School-Ghaziabad-.jpg",
+                "https://i0.wp.com/du-assassins.in/wp-content/uploads/2020/08/0.jpg?fit=2048%2C1040&ssl=1",
                 "https://i.ytimg.com/vi/Mr0ILMNcm0o/maxresdefault.jpg",
                 "https://images.uniapply.com/uploads/college/image/500/2172/DAV_Public_School_1145_Main_Gate_7.jpg",
-                "https://images.shiksha.com/mediadata/images/1491901951phpT7SJrs.jpeg",
-                "https://i0.wp.com/du-assassins.in/wp-content/uploads/2020/08/0.jpg?fit=2048%2C1040&ssl=1"
+                "https://images.shiksha.com/mediadata/images/1491901951phpT7SJrs.jpeg"
             ]
         },
         {
@@ -54,11 +49,7 @@
             "desc": "Discover how I've contributed to successful projects and teams.",
             "url": "/experience",
             "imgsrc": [
-                "https://www.section.io/engineering-education/how-to-implement-material-ui-in-react/hero.png",
-                "/images/LgImage.jpg",
-                "https://repository-images.githubusercontent.com/993110/985a9280-8912-11e9-98be-f53bea7e3163"
-                
-
+                "raw_data/experience/LG/LgImage.jpg"
             ]
         },
         {
@@ -66,9 +57,9 @@
             "desc": "A showcase of my portfolio featuring a range of technical projects.",
             "url": "/projects",
             "imgsrc": [
+                "https://miro.medium.com/v2/resize:fit:1200/1*2xsLeLNqKwIoGOQlw8O6Ug.png",
                 "https://www.educative.io/v2api/editorpage/5393602882568192/image/6038586442907648",
                 "https://i0.wp.com/wordpress.org/news/files/2021/04/image8.png?resize=678%2C318&ssl=1",
-                "https://miro.medium.com/v2/resize:fit:1200/1*2xsLeLNqKwIoGOQlw8O6Ug.png",
                 "https://lastmomenttuitions.com/wp-content/uploads/2021/01/Data-structure-web-1.jpg"
             ]
         },
@@ -77,10 +68,8 @@
             "desc": "My notable accomplishments across various domains.",
             "url": "/achievements",
             "imgsrc": [
-                "https://technofall.com/wp-content/uploads/2016/07/CodeChef-logo.jpeg",
                 "https://res.cloudinary.com/practicaldev/image/fetch/s--mzwvoucO--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cer3l19eex0wy900b101.jpg",
                 "https://leetcode.com/static/images/LeetCode_Sharing.png",
-                "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210406180435/What-is-GirlScript-Summer-of-Code-and-How-to-Participate.png",
                 "https://static.toiimg.com/thumb/msid-95655551,width-1280,height-720,resizemode-4/.jpg"
             ]
         },
@@ -90,7 +79,6 @@
             "url": "/skills",
             "imgsrc": [
                 "https://blog.eduonix.com/wp-content/uploads/2018/09/Git-Github-Essentials-696x500.jpg",
-                "https://media.licdn.com/dms/image/C5612AQE_3-PwRY-krw/article-cover_image-shrink_600_2000/0/1606665773179?e=2147483647&v=beta&t=1Ff9v7S93z7LtPDhDtIWokA86FkL42SSY_F5sL7rQWc",
                 "https://www.simplilearn.com/ice9/free_resources_article_thumb/difference_between_sql_and_mysql.jpg",
                 "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/9d2e8896750899.5eb54f3381452.png"
             ]

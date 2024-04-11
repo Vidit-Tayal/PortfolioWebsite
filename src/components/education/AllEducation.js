@@ -6,7 +6,7 @@ import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardContent from "@mui/material/CardContent";
 import StarIcon from "@mui/icons-material/StarBorder";
-import edu_tiers from "./EduTiers";
+import edu_tiers from "../../raw_data/education/EduTiers";
 
 const AllEducation = () => {
   return (

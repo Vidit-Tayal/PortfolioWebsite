@@ -9,7 +9,7 @@ import CardActions from "@mui/material/CardActions";
 import { NavLink } from "react-router-dom";
 import Button from "@mui/material/Button";
 import StarIcon from "@mui/icons-material/StarBorder";
-import tiers from "./tiers";
+import tiers from "../../raw_data/projects/tiers";
 
 
 const AllProjects = () => {

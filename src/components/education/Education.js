@@ -4,7 +4,7 @@ import HeroUnit from "../projects/HeroUnit";
 import ProjectFooter from "../projects/ProjectFooter";
 import AllEducation from "./AllEducation";
 import OldMemories from "./OldMemories";
-import itemData from "./SchoolPics";
+import itemData from "../../raw_data/education/SchoolPics";
 
 const Education = () => {
   const heading = "Education";

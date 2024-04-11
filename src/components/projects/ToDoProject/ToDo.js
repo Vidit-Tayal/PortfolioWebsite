@@ -10,7 +10,7 @@ import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import imagesData from "./ToDoImages.json";
+import imagesData from "../../../raw_data/projects/TodoProject/ToDoImages.json";
 import BookmarksIcon from "@mui/icons-material/Bookmarks";
 import "./ToDo.css";
 import { NavLink } from "react-router-dom";

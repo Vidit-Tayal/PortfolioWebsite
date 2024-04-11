@@ -9,7 +9,7 @@ import CardActions from "@mui/material/CardActions";
 import { NavLink } from "react-router-dom";
 import Button from "@mui/material/Button";
 import StarIcon from "@mui/icons-material/StarBorder";
-import skill_tiers from "./SkillTiers";
+import skill_tiers from "../../raw_data/skills/SkillTiers";
 
 
 

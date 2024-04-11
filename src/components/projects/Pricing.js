@@ -8,7 +8,7 @@ import ProjectFooter from "./ProjectFooter";
 
 export default function Pricing() {
   const heading = "Projects";
-  const desc = "From competitive programming challenges to immersive web development projects, each endeavor fuels my curiosity and shapes my transformative journey in technology.";
+  const desc = "From competitive programming to web development projects, I'm driven by curiosity and growth in technology.";
   
     return (
     <>

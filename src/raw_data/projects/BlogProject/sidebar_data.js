@@ -12,14 +12,13 @@ const sidebar = {
     { title: "Design Changes On WhatsApp", blognum: "1" },
   ],
   about_me:[
-    { title: "My first internship experience", blognum: "4" },
-    {title: "My Undergrad Software Engineering Curriculum", blognum:"3"},
-    {title:"My Four-Month Placement Preparation Plan", blognum:"5"},
+    {title:"My Four-Month Placement Preparation Plan", blognum:"3"},
   ],
   social: [
     { name: "LinkedIn", icon: LinkedInIcon, url: "https://www.linkedin.com/in/vidit-tayal/" },
     { name: "Portfolio", icon: LanguageIcon, url: "https://vidittayal.netlify.app/" },
     { name: "Codeforces", icon: CodeIcon, url: "https://codeforces.com/profile/vidittayal" },
+    { name: "LeetCode", icon: CodeIcon, url: "https://leetcode.com/vidittayal_/" },
     { name: "GitHub", icon: GitHubIcon, url: "https://github.com/Vidit-Tayal" },
   ],
   charLimit:45

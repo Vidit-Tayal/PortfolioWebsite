@@ -11,7 +11,7 @@ const OldMemories = (props) => {
     <div>
       <HeroUnit heading={heading} desc={desc}></HeroUnit>
       <div style={{ display: "flex", justifyContent: "center" }}>
-        <MasonryImageList data={data} groups = {groups}></MasonryImageList>
+        <MasonryImageList data={data} groups={groups}></MasonryImageList>
       </div>
     </div>
   );

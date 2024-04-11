@@ -4,9 +4,9 @@ import HeroUnit from "../projects/HeroUnit";
 import AllExperience from "./AllExperience";
 import ProjectFooter from "../projects/ProjectFooter";
 import OldMemories from "../education/OldMemories";
-import aana from "./AanaProduct";
+import aana from "../../raw_data/experience/AanaProduct";
 import { Button } from "@mui/material";
-import lgPics from "./LgPics";
+import lgPics from "../../raw_data/experience/LgPics";
 
 const Experience = () => {
   const heading = "Experience";

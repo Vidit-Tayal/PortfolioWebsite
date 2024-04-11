@@ -6,7 +6,7 @@ import Card from "@mui/material/Card";
 import CardHeader from "@mui/material/CardHeader";
 import CardContent from "@mui/material/CardContent";
 import StarIcon from "@mui/icons-material/StarBorder";
-import exp_tiers from "./exp_tiers";
+import exp_tiers from "../../raw_data/experience/exp_tiers";
 
 const AllExperience = () => {
   return (

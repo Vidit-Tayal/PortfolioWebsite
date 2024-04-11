@@ -22,16 +22,16 @@ Our goal is to develop an intuition for solving any DP problem. To achieve this,
 - Base case: Identifying the smallest subproblem.
 
 ## State:
-
+A subproblem that we want to solve. The subproblem may be complex or easy to solve but the final aim is to solve the final problem which may be defined by a relation between the smaller subproblems. Represented with some parameters.
 
 ## Transition:
-
+Calculating the answer for a state (subproblem) by using the answers of other smaller states (subproblems). Represented as a relation b/w states.
 
 ## Answer:
-
+The final answer.
 
 ## Base Case:
-
+The smallest subproblem.
 
 ## Applying the Method - Examples:
 

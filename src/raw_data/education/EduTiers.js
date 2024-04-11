@@ -5,7 +5,7 @@ const edu_tiers = [
         "Bachelor of Technology",
         "Software Engineering",
         "2021-2025",
-        "CGPA: 8.30",
+        "CGPA: 8.48",
       ],
     },
     {

@@ -11,10 +11,10 @@ const skill_tiers = [
     {
       title: "Coding Profiles",
       description: [
-        "Codeforces: 1382, Pupil",
-        "CodeChef: 1598, 3⭐",
-        "LeetCode: 1673",
-        "300+ DSA problems",
+        "Codeforces: 1435, Cyan",
+        "LeetCode: 1855, Knight",
+        "CodeChef: 1603, 3⭐",
+        "500+ DSA problems",
       ],
     },
     {
